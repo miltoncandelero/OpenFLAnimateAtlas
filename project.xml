@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+	
+	<meta title="AnimateCCTakeTwo" package="com.sample.animatecctaketwo" version="1.0.0" company="Company Name" />
+	<app main="Main" path="Export" file="AnimateCCTakeTwo" />
+	
+	<window width="800" height="600" unless="html5" resizable = "false" fps="60" />
+
+	<source path="Source" />
+	
+	<haxelib name="openfl" />
+	
+	<assets path="Assets" rename="assets" />
+
+	<haxedef name="gl_stats" />
+
+	<haxeflag name="-dce full" />
+	
+</project>
