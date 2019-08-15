@@ -183,7 +183,7 @@ class SpriteAnimationLibrary {
 				var elements:Array<ElementData> = frame.elements;
 				for (e in 0...elements.length) {
 					var element:ElementData = elements[e];
-					if (element.ATLAS_SPRITE_instance) {
+					if (element.ATLAS_SPRITE_instance != null) {
 						element = elements[e] = {
 							SYMBOL_Instance: {
 								SYMBOL_name: BITMAP_SYMBOL_NAME,
